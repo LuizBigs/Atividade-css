@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.resume {
+    display: flex;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+p {
+    margin-top: 20px;
+}
