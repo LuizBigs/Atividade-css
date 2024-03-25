@@ -1,30 +1,203 @@
+/* Estilo geral */
+
 body {
     font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+    color: #333;
 }
 
-.resume {
-    display: flex;
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
 }
 
-.left-column {
-    width: 30%;
-    background-color: #333;
-    color: white;
-    padding: 20px;
+p {
+    margin-bottom: 10px;
 }
 
-.right-column {
-    width: 70%;
-    background-color: #f0f0f0;
-    padding: 20px;
+/* Cabeçalho */
+
+header {
+    background-color: #f7f7f7;
+    padding: 20px 0;
 }
 
-.profile-picture {
-    width: 100px;
-    height: 100px;
+.foto {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    float: left;
+    margin-right: 20px;
 }
 
-h1, h2, h3 {
+.info {
+    float: left;
+}
+
+header h1 {
+    font-size: 24px;
     margin-top: 0;
+    color: #444;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #777;
+}
+
+/* Contato */
+
+.contato {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.info-contato {
+    float: left;
+    width: 60%;
+}
+
+.redes-sociais {
+    float: right;
+    width: 40%;
+}
+
+.contato p {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contato p a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Histórico profissional */
+
+.historico-profissional {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.historico-profissional h2 {
+    margin-top: 0;
+    color: #444;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item h3, h4, h5 {
+    margin-bottom: 5px;
+    color: #777;
+}
+
+.item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.item ul li {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Formação acadêmica */
+
+.formacao-academica {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.formacao-academica h2 {
+    margin-top: 0;
+    color: #444;
+}
+
+/* Idiomas */
+
+.idiomas {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.idiomas h2 {
+    margin-top: 0;
+    color: #444;
+}
+
+.idiomas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.idiomas ul li {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Competências */
+
+.competencias {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.competencias h2 {
+    margin-top: 0;
+    color: #444;
+}
+
+.competencias ul {
+    list-style: none;
+    padding: 0;
+}
+
+.competencias ul li {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Detalhes de estilo */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.contato {
+    text-align: center;
+}
+
+.historico-profissional h2 {
+    text-align: center;
+}
+
+.formacao-academica h2 {
+    text-align: center;
+}
+
+.idiomas h2 {
+    text-align: center;
+}
+
+.competencias h2 {
+    text-align: center;
+}
+
+/* Mídia queries */
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
 }
