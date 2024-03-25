@@ -1,0 +1,53 @@
+/* Estilo geral do menu */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .menu li a img {
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  /* Efeito hover geral */
+  .menu li a:hover {
+    border: 2px solid #000;
+  }
+  
+  .menu li a:hover img {
+    border: none;
+  }
+  
+  .menu li:hover {
+    background-color: #ccc;
+  }
+  
+  /* Efeito hover para o item "Esportes" */
+  .menu li:nth-child(2):hover {
+    border-color: #f00;
+    background-color: #ff0;
+  }
+  
+  /* Efeito hover para o item "Entretenimento" */
+  .menu li:nth-child(3):hover {
+    border-color: #00f;
+    background-color: #0ff;
+  }
+  
+  /* Efeito hover para o item "Vídeos" */
+  .menu li:nth-child(4):hover {
+    border-color: #0f0;
+    background-color: #f0f;
+  }
+  
