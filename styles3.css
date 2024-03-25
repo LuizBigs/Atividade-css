@@ -1,0 +1,58 @@
+/* Link inicial */
+
+a:link {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Link visitado */
+  
+  a:visited {
+    color: #808080;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Link ao passar o mouse */
+  
+  a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+    font-size: 16px;
+  }
+  
+  /* Link ativo */
+  
+  a:active {
+    color: #008000;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Link do Youtube (classe link-youtube) */
+  
+  .link-youtube {
+    /* Remova a parte do texto que indica o Youtube */
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 4px;
+    
+    /* Fundo com gradiente simulando o Youtube */
+    background: linear-gradient(to right, #f00 0%, #c00 50%, #000 100%);
+    color: #fff;
+    font-weight: bold;
+    
+    /* Transição suave para mudar a cor ao passar o mouse */
+    transition: 0.5s ease-in-out;
+  }
+  
+  /* Link do Youtube ao passar o mouse (classe link-youtube:hover) */
+  
+  .link-youtube:hover {
+    background: linear-gradient(to right, #ff0 0%, #f00 50%, #c00 100%);
+  }
+  
