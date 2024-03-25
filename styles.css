@@ -6,22 +6,25 @@ body {
     display: flex;
 }
 
-.sidebar {
+.left-column {
     width: 30%;
     background-color: #333;
     color: white;
     padding: 20px;
 }
 
-.main-content {
+.right-column {
     width: 70%;
+    background-color: #f0f0f0;
     padding: 20px;
 }
 
-h1, h2 {
-    font-weight: bold;
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
-p {
-    margin-top: 20px;
+h1, h2, h3 {
+    margin-top: 0;
 }
